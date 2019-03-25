@@ -1,7 +1,4 @@
-import ControlFlowExercises.DayOfTheWeek;
-import ControlFlowExercises.NumberInWord;
-import ControlFlowExercises.NumberOfDaysInMonth;
-import MethodExercises.*;
+import ControlFlowExercises.*;
 
 public class Main {
 
@@ -33,6 +30,26 @@ public class Main {
         System.out.println(NumberOfDaysInMonth.getDaysInMonth(-1, 2020));
         System.out.println(NumberOfDaysInMonth.getDaysInMonth(1, -2020));
 
+        // ControlFlowExercises.Sum3And5
+        System.out.println("-----ControlFlowExercises.Sum3And5-----");
+        Sum3And5.Sum3And5();
+
+        // ControlFlowExercises.SumOddRange
+        System.out.println("-----ControlFlowExercises.SumOddRange-----");
+        System.out.println(SumOddRange.sumOdd(1, 100));
+        System.out.println(SumOddRange.sumOdd(-1, 100));
+        System.out.println(SumOddRange.sumOdd(100, 100));
+        System.out.println(SumOddRange.sumOdd(13, 13));
+        System.out.println(SumOddRange.sumOdd(100, -100));
+        System.out.println(SumOddRange.sumOdd(100, 1000));
+
+        // ControlFlowExercises.DigitSum
+        System.out.println("-----ControlFlowExercises.DigitSum-----");
+        System.out.println("Sum of Digits: " + DigitSum.sumDigits(125));
+        System.out.println("Sum of Digits: " + DigitSum.sumDigits(369));
+        System.out.println("Sum of Digits: " + DigitSum.sumDigits(4725));
+        System.out.println("Sum of Digits: " + DigitSum.sumDigits(-125));
+        System.out.println("Sum of Digits: " + DigitSum.sumDigits(5));
 
 
 
