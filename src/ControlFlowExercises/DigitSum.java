@@ -11,8 +11,8 @@ public class DigitSum {
 
             while (number > 0) {
                 int currentDigit = number % 10;
-                sumOfDigits = sumOfDigits + currentDigit;
-                number = number / 10;
+                sumOfDigits += currentDigit;
+                number /= 10;
             }
 
             return sumOfDigits;
