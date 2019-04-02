@@ -1,9 +1,109 @@
+import ClassExercises.*;
 import ControlFlowExercises.InputCalculator;
 import MethodExercises.PaintJob;
 
 public class Main {
 
     public static void main(String[] args) {
+
+//        // CLASSES
+//        // ClassExercises.SimpleCalculator
+//        System.out.println("-----ClassExercises.SimpleCalculator-----");
+//        SimpleCalculator calculator = new SimpleCalculator();
+//        calculator.setFirstNumber(5.0);
+//        calculator.setSecondNumber(4);
+//        System.out.println("add= " + calculator.getAdditionResult());
+//        System.out.println("subtract= " + calculator.getSubtractionResult());
+//        calculator.setFirstNumber(5.25);
+//        calculator.setSecondNumber(0);
+//        System.out.println("multiply= " + calculator.getMultiplicationResult());
+//        System.out.println("divide= " + calculator.getDivisionResult());
+//
+//        // ClassExercises.Person
+//        System.out.println("-----ClassExercises.Person-----");
+//        Person person = new Person();
+//        person.setFirstName("");
+//        person.setLastName("");
+//        person.setAge(10);
+//        System.out.println("fullName= " + person.getFullName());
+//        System.out.println("teen= " + person.isTeen());
+//        person.setFirstName("John");
+//        person.setAge(18);
+//        System.out.println("fullName= " + person.getFullName());
+//        System.out.println("teen= " + person.isTeen());
+//        person.setLastName("Smith");
+//        System.out.println("fullName= " + person.getFullName());
+//
+//        // ClassExercises.BankAccount
+//        System.out.println("-----ClassExercises.BankAccount-----");
+//        BankAccount johnSmith = new BankAccount(123456789, 500, "John Smith", "john@smith.com", "555-555-5555");
+//        johnSmith.depositFunds(100);
+//        johnSmith.withdrawFunds(250);
+//        BankAccount jennySmith = new BankAccount(987654321, 250, "Jenny Smith", "555-867-5309");
+//        jennySmith.depositFunds(250);
+//        jennySmith.depositFunds(250);
+//        jennySmith.depositFunds(250);
+//        jennySmith.withdrawFunds(300);
+//        System.out.println("Jenny's Phone Number is " + jennySmith.getCustomerPhone());
+//        BankAccount newAccount = new BankAccount();
+//        System.out.println(newAccount.getCustomerName());
+//
+//        // ClassExercises.VIPCustomer
+//        System.out.println("-----ClassExercises.VIPCustomer-----");
+//        VIPCustomer person1 = new VIPCustomer();
+//        System.out.println(person1.getName() + " has a credit limit of $" + person1.getCreditLimit() + ".");
+//        System.out.println(person1.getName() + " can be reached at " + person1.getEmail() + ".");
+//        VIPCustomer person2 = new VIPCustomer("John Smith", 25000);
+//        System.out.println(person2.getName() + " has a credit limit of $" + person2.getCreditLimit() + ".");
+//        System.out.println(person2.getName() + " can be reached at " + person2.getEmail() + ".");
+//        VIPCustomer person3 = new VIPCustomer("Jenny Smith", 50000, "jenny@smith.com");
+//        System.out.println(person3.getName() + " has a credit limit of $" + person3.getCreditLimit() + ".");
+//        System.out.println(person3.getName() + " can be reached at " + person3.getEmail() + ".");
+//
+//        // ClassExercises.Wall
+//        System.out.println("-----ClassExercises.Wall-----");
+//        Wall wall = new Wall(5,4);
+//        System.out.println("area= " + wall.getArea());
+//        wall.setHeight(-1.5);
+//        System.out.println("width= " + wall.getWidth());
+//        System.out.println("height= " + wall.getHeight());
+//        System.out.println("area= " + wall.getArea());
+//
+//        // ClassExercises.Point
+//        System.out.println("-----ClassExercise.Point-----");
+//        Point first = new Point(6,5);
+//        Point second = new Point(3,1);
+//        System.out.println("distance(0,0)= " + first.distance());
+//        System.out.println("distance(second)= " + first.distance(second));
+//        System.out.println("distance(2,2)= " + first.distance(2,2));
+//        Point point = new Point();
+//        System.out.println("distance() = " + point.distance());
+//
+//        // ClassExercises.CarpetCostCalculator
+//        System.out.println("-----ClassExercise.CarpetCostCalculator-----");
+//        Carpet carpet = new Carpet(3.5);
+//        Floor floor = new Floor(2.75, 4.0);
+//        Calculator calculator = new Calculator(floor, carpet);
+//        System.out.println("total= " + calculator.getTotalCost());
+//        carpet = new Carpet(1.5);
+//        floor = new Floor(5.4, 4.5);
+//        calculator = new Calculator(floor, carpet);
+//        System.out.println("total= " + calculator.getTotalCost());
+
+        // ClassExercises.ComplexOperations
+        System.out.println("-----ClassExercises.ComplexOperations-----");
+        ComplexNumber one = new ComplexNumber(1.0, 1.0);
+        ComplexNumber number = new ComplexNumber(2.5, -1.5);
+        one.add(1,1);
+        System.out.println("one.real= " + one.getReal());
+        System.out.println("one.imaginary= " + one.getImaginary());
+        one.subtract(number);
+        System.out.println("one.real= " + one.getReal());
+        System.out.println("one.imaginary= " + one.getImaginary());
+        number.subtract(one);
+        System.out.println("number.real= " + number.getReal());
+        System.out.println("number.imaginary= " + number.getImaginary());
+
 
 //        // CONTROL FLOW
 //        // ControlFlowExercises.DayOfTheWeek
@@ -136,10 +236,10 @@ public class Main {
 //        System.out.println(LargestPrime.getLargestPrime(0));
 //        System.out.println(LargestPrime.getLargestPrime(45));
 //        System.out.println(LargestPrime.getLargestPrime(-1));
-
-        // ControlFlowExercises.InputCalculator
-        System.out.println("-----ControlFlowExercises.InputCalculator-----");
-        InputCalculator.inputThenPrintSumAndAverage();
+//
+//        // ControlFlowExercises.InputCalculator
+//        System.out.println("-----ControlFlowExercises.InputCalculator-----");
+//        InputCalculator.inputThenPrintSumAndAverage();
 
 //        // BASIC METHODS
 //        // MethodExercises.PositiveNegativeZero
