@@ -116,7 +116,7 @@ public class Main {
 //        System.out.println("cylinder.volume= " + cylinder.getVolume());
 //
 //        // ClassExercises.PoolArea
-//        System.out.println("-----PoolArea-----");
+//        System.out.println("-----ClassExercises.PoolArea-----");
 //        Rectangle rectangle = new Rectangle(5, 10);
 //        System.out.println("rectangle.width= " + rectangle.getWidth());
 //        System.out.println("rectangle.length= " + rectangle.getLength());
@@ -127,6 +127,20 @@ public class Main {
 //        System.out.println("cuboid.area= " + cuboid.getArea());
 //        System.out.println("cuboid.height= " + cuboid.getHeight());
 //        System.out.println("cuboid.volume= " + cuboid.getVolume());
+//
+//        // ClassExercises.BurgerStore
+//        System.out.println("-----ClassExercises.BurgerStore-----");
+//        StandardBurger standardBurger = new StandardBurger("standard burger", "standard bun", "beef", 4.99);
+//        standardBurger.setTopping1("lettuce", 0.75);
+//        standardBurger.setTopping2("tomato", 0.75);
+//        standardBurger.setTopping3("cheese", 1.25);
+//        System.out.println("Total price: $" + standardBurger.itemizeBurger());
+//        HealthyBurger healthyBurger = new HealthyBurger("boca beef", 6.99);
+//        healthyBurger.setHealthyTopping1("egg", 0.75);
+//        healthyBurger.setHealthyTopping2("peanut butter", 1.25);
+//        System.out.println("Total price: $" + healthyBurger.itemizeBurger());
+//        DeluxeBurger deluxeBurger = new DeluxeBurger();
+//        System.out.println("Total price: $" + deluxeBurger.itemizeBurger());
 
 //        // CONTROL FLOW
 //        // ControlFlowExercises.DayOfTheWeek
