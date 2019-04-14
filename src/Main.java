@@ -1,19 +1,34 @@
 import ArraysListsExercises.IntegerSort;
+import ArraysListsExercises.MinimumElement;
+import ArraysListsExercises.ReverseArray;
 import ClassExercises.*;
 import ControlFlowExercises.InputCalculator;
 import MethodExercises.PaintJob;
+
+import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
 
 //        // ARRAYS & LISTS
-//        // ArraysListsExercises.IntegerSort.......................
+//        // ArraysListsExercises.IntegerSort
 //        System.out.println("-----ArraysListsExercises.IntegerSort-----");
 //        int[] myIntegers = IntegerSort.getIntegers(5);
 //        int[] reverseIntegers = IntegerSort.sortIntegers(myIntegers);
 //        IntegerSort.printIntegers(reverseIntegers);
-
+//
+//        // ArraysListsExercises.MinimumElement
+//        System.out.println("-----ArraysListsExercises.MinimumElement-----");
+//        int[] myIntegers = MinimumElement.getIntegers(5);
+//        int returnedMin = MinimumElement.findMin(myIntegers);
+//        System.out.println("Minimum Value is " + returnedMin);
+//
+//        // ArraysListsExercises.ReverseArray
+//        System.out.println("-----ArraysListsExercises.ReverseArray-----");
+//        int[] array = {1, 5, 3, 7, 11, 9, 15};
+//        System.out.println("Original Array: " + Arrays.toString(array));
+//        ReverseArray.reverse(array);
 
 
 //        // CLASSES
