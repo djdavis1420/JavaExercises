@@ -1,3 +1,4 @@
+import ArraysListsExercises.IntegerSort;
 import ClassExercises.*;
 import ControlFlowExercises.InputCalculator;
 import MethodExercises.PaintJob;
@@ -5,6 +6,15 @@ import MethodExercises.PaintJob;
 public class Main {
 
     public static void main(String[] args) {
+
+//        // ARRAYS & LISTS
+//        // ArraysListsExercises.IntegerSort.......................
+//        System.out.println("-----ArraysListsExercises.IntegerSort-----");
+//        int[] myIntegers = IntegerSort.getIntegers(5);
+//        int[] reverseIntegers = IntegerSort.sortIntegers(myIntegers);
+//        IntegerSort.printIntegers(reverseIntegers);
+
+
 
 //        // CLASSES
 //        // ClassExercises.SimpleCalculator
